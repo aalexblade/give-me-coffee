@@ -1,1 +1,23 @@
 @import url(./basic-styles.css);
+
+:root {
+  --common-whitr: #fff;
+  --common-black: #1b1b1d;
+  --mid-gray: #64646a;
+  --athens-gray: #eeeff1;
+  --porcelain: #f3f4f5;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  color: var(--common-black);
+}
+
+.header-item > a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  color: var(--common-black);
+}

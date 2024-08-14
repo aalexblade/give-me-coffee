@@ -11,8 +11,8 @@ html {
   box-sizing: border-box;
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.4;
-  color: #1b1b1d;
+  line-height: 34.68px;
+  color: var(--common-black);
   /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
 }
 
@@ -21,7 +21,21 @@ body {
   margin: 50px;
   letter-spacing: -1px; */
   font-family: 'Jost', sans-serif;
-  background-color: #eeeff1;
+  background-color: var(--athens-gray);
+}
+
+/* h2 */
+.title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+}
+
+/* h3 */
+.sub-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52.02px;
 }
 
 h1,
@@ -35,8 +49,7 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -45,6 +58,7 @@ ol {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
@@ -75,19 +89,18 @@ img {
   box-sizing: border-box;
 }
 
-.title {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.5px;
+
+h1
+
+.lable {
+  font-size: 124px;
+  font-weight: 800;
+  line-height: 140px;
+  
 }
 
-.sub-title {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-}
+
+
 
 img {
   display: block;
