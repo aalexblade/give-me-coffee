@@ -21,3 +21,37 @@
   line-height: 21.68px;
   color: var(--common-black);
 }
+
+/* hero */
+.lable {
+  font-weight: 800;
+  font-size: 124px;
+  line-height: 140px;
+  color: var(--common-black);
+}
+
+.hero-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* text-decoration: underline; */
+  text-transform: uppercase;
+  color: var(--common-black);
+}
+
+/* contact */
+.contact-link-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* text-decoration: underline; */
+  text-transform: uppercase;
+  color: var(--common-black);
+}
+
+.contact-link > a {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: var(--mid-gray);
+}
