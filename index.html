@@ -10,7 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -18,21 +23,23 @@
     <!-- header -->
 
     <header class="header">
-        <a class="header-logo" href="">Give me coffee!</a>
+        <div class="container">
+            <a class="header-logo" href="">Give me coffee!</a>
 
-        <nav>
-            <ul class="header-list">
-                <li class="header-item"><a href="">Cafe Munu</a></li>
-                <li class="header-item"><a href="">About Us</a></li>
-                <li class="header-item"><a href="">Find Us</a></li>
-                <li class="header-item"><a href="">Alowishus Catering</a></li>
-            </ul>
-            <!-- basket of goods -->
-            <div>
-                <div>trash img</div>
-                <button type="button">Buy gift vouchers</button>
-            </div>
-        </nav>
+            <nav>
+                <ul class="header-list">
+                    <li class="header-item"><a href="">Cafe Munu</a></li>
+                    <li class="header-item"><a href="">About Us</a></li>
+                    <li class="header-item"><a href="">Find Us</a></li>
+                    <li class="header-item"><a href="">Alowishus Catering</a></li>
+                </ul>
+                <!-- basket of goods -->
+                <div>
+                    <div>trash img</div>
+                    <button type="button">Buy gift vouchers</button>
+                </div>
+            </nav>
+        </div>
 
     </header>
 
@@ -42,7 +49,7 @@
 
         <!-- hero -->
         <section>
-            <div>
+            <div class="container">
                 <h1 class="lable">Alowishus Delicious Coffee</h1>
                 <p>A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious
                     coffee’s.</p>
@@ -52,8 +59,8 @@
         </section>
 
         <!-- Our production -->
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2 class="product-title title">Our production</h2>
                 <p>A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
 
@@ -84,8 +91,8 @@
         </section>
 
         <!-- >Order Your Favourite Coffee -->
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2 class="order-title title">Order Your Favourite Coffee</h2>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                     duis enim velit
@@ -95,8 +102,8 @@
         </section>
 
         <!-- Best Selling Coffee -->
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2 class="sell-title title">Best Selling Coffee</h2>
                 <p>A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
 
@@ -129,84 +136,88 @@
         </section>
 
         <!-- contacts -->
-        <section>
-            <div>
-                <a href="">LOGO Give me coffee</a>
-                <p>We made it our mission to create community everyday and grow meaningful, lasting relationships with
-                    our staff, our
-                    suppliers and of course you, our customers.</p>
+        <section class="section">
+            <div class="container">
+
+                <div>
+                    <a href="">LOGO Give me coffee</a>
+                    <p>We made it our mission to create community everyday and grow meaningful, lasting relationships
+                        with
+                        our staff, our
+                        suppliers and of course you, our customers.</p>
+                </div>
+
+                <div>
+                    <h3 class="contact-sub sub-title">Store Locations</h3>
+                    <p>Find your nearest Alowishus store with opening hours, location and contact details.</p>
+                    <a class="contact-link-text " href="">Find my Alowishus</a>
+                </div>
+
+                <div>
+                    <h3 class="contact-sub sub-title">Contact Alowishus!</h3>
+                    <ul>
+                        <li class="contact-link"><a href="mailto:info@devstudio.com">info@givemecoffee.com</a></li>
+                        <li class="contact-link"><a href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <svg>
+                                        <use></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <svg>
+                                        <use></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <svg>
+                                        <use></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <svg>
+                                        <use></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h3 class="contact-sub sub-title">First One’s On Us!</h3>
+                    <label for="">
+                        <input type="email" name="email" id="" placeholder="E-mail">
+                        <button type="button">Subscribe</button>
+                    </label>
+
+                </div>
+
             </div>
-
-            <div>
-                <h3 class="contact-sub sub-title">Store Locations</h3>
-                <p>Find your nearest Alowishus store with opening hours, location and contact details.</p>
-                <a class="contact-link-text " href="">Find my Alowishus</a>
-            </div>
-
-            <div>
-                <h3 class="contact-sub sub-title">Contact Alowishus!</h3>
-                <ul>
-                    <li class="contact-link"><a href="mailto:info@devstudio.com">info@givemecoffee.com</a></li>
-                    <li class="contact-link"><a href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="">
-                            <div>
-                                <svg>
-                                    <use></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <div>
-                                <svg>
-                                    <use></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <div>
-                                <svg>
-                                    <use></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <div>
-                                <svg>
-                                    <use></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-
-                <h3 class="contact-sub sub-title">First One’s On Us!</h3>
-                <label for="">
-                    <input type="email" name="email" id="" placeholder="E-mail">
-                    <button type="button">Subscribe</button>
-                </label>
-
-            </div>
-
         </section>
-
-        <!-- footer -->
-        <footer>
-            <div>
-                <p>Copytright © 2022 Alowishus Delicious</p>
-                <p>Terms of Use | Privacy Policy</p>
-            </div>
-        </footer>
-
     </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p>Copytright © 2022 Alowishus Delicious</p>
+            <p>Terms of Use | Privacy Policy</p>
+        </div>
+    </footer>
+
 
 </body>
 

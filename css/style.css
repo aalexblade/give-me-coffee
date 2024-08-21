@@ -8,6 +8,19 @@
   --porcelain: #f3f4f5;
 }
 
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-logo {
   font-weight: 500;
   font-size: 15px;
