@@ -26,6 +26,12 @@
   font-size: 15px;
   line-height: 21.68px;
   color: var(--common-black);
+
+  background-image: url('../images/logo/logo-small-PMG.png');
+  background-repeat: no-repeat;
+
+  width: 126px;
+  height: 50px;
 }
 
 .header-item > a {
@@ -36,11 +42,21 @@
 }
 
 /* hero */
-.lable {
+.hero-lable {
   font-weight: 800;
   font-size: 124px;
   line-height: 140px;
   color: var(--common-black);
+
+  margin-top: 124px;
+}
+
+.hero-text {
+  margin-top: 30px;
+}
+
+.hero-button {
+  margin-top: 60px;
 }
 
 .hero-link {
