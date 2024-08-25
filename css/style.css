@@ -51,6 +51,17 @@
   margin-top: 124px;
 }
 
+.png {
+  display: block;
+  background-image: url('../images/png/hero-cup.png');
+  background-repeat: no-repeat;
+  /* background-position: left bottom; */
+  background-position: 100%;
+
+  width: 700px;
+  height: 712px;
+}
+
 .hero-text {
   margin-top: 30px;
 }
