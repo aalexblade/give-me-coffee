@@ -54,6 +54,7 @@
 .png {
   display: block;
   background-image: url('../images/png/hero-cup.png');
+
   background-repeat: no-repeat;
   /* background-position: left bottom; */
   background-position: 100%;
