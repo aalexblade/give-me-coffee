@@ -26,6 +26,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-top: 24px;
 }
 
 .header-logo {
@@ -33,17 +35,7 @@
   font-size: 15px;
   line-height: 21.68px;
   color: var(--common-black);
-
-  /* background-image: url('../images/logo/logo-small-PMG.png');
-  background-repeat: no-repeat; */
-
-  /* width: 126px;
-  height: 50px; */
 }
-
-/* .header-nav {
-  display: flex;
-} */
 
 .header-list {
   display: flex;
@@ -83,6 +75,26 @@
   margin-right: 20px;
 }
 
+.header-btn {
+  color: var(--common-whitr);
+  background-color: var(--common-black);
+
+  padding: 15px 30px;
+  border-radius: 63px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--mid-gray);
+  color: var(--athens-gray);
+}
+
 /* hero */
 .hero-lable {
   font-weight: 800;
@@ -109,15 +121,33 @@
   margin-top: 30px;
 }
 
-.hero-button {
+.hero-wrap {
+  display: flex;
+  align-items: center;
+
   margin-top: 60px;
+}
+
+.hero-btn {
+  color: var(--common-whitr);
+  background-color: var(--common-black);
+
+  margin-right: 30px;
+  padding: 20px 40px;
+  border-radius: 126px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  cursor: pointer;
 }
 
 .hero-link {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  /* text-decoration: underline; */
+  cursor: pointer;
   text-transform: uppercase;
   color: var(--common-black);
 }
