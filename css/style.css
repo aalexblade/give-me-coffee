@@ -19,7 +19,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  min-width: 1140px;
+  width: 1276px;
 }
 
 .header-wrap {
@@ -102,7 +102,7 @@
   line-height: 140px;
   color: var(--common-black);
 
-  margin-top: 124px;
+  /* margin-top: 124px; */
 }
 
 .hero-png {
@@ -150,6 +150,28 @@
   cursor: pointer;
   text-transform: uppercase;
   color: var(--common-black);
+}
+
+/* Our production */
+
+.product-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.product-text {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.product-section {
+  background-color: var(--common-whitr);
+}
+
+.product-list {
+  /* width: 393px; */
+  display: flex;
+  row-gap: 30px;
 }
 
 /* contact */
