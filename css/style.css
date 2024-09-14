@@ -169,13 +169,39 @@
 }
 
 .product-list {
-  /* width: 393px; */
   display: flex;
-  row-gap: 30px;
+  gap: 30px;
+}
+
+.product-item {
+  width: 393px;
+  border: 1px solid #1b1b1d;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.product-sub {
+  margin-bottom: 8px;
+}
+
+.product-sub-text {
+  margin-bottom: 60px;
+  text-align: start;
+}
+
+.product-svg {
+  margin-bottom: 60px;
+
+  /* display: flex;
+  text-align: center;
+  top: 50%;
+  left: 50%; */
+  /* margin-left: 121px; */
 }
 
 .product-btn {
   display: block;
+  margin: 0 auto;
 
   color: var(--common-whitr);
   background-color: var(--common-black);
