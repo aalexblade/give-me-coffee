@@ -37,7 +37,7 @@
   color: var(--common-black);
 }
 
-.header-list {
+.header-card {
   display: flex;
   align-items: center;
 }
@@ -61,6 +61,10 @@
 .header-basket-buy {
   display: flex;
   align-items: center;
+}
+
+.header-list {
+  display: flex;
 }
 
 .header-basket {
@@ -154,6 +158,24 @@
 
 /* Our production */
 
+.product-section {
+  background: linear-gradient(
+    135deg,
+    #fff 0%,
+    #fff 0%,
+    rgba(243, 244, 245, 0.2) 11.74%,
+    #f3f4f5 27.92%,
+    rgba(243, 244, 245, 0) 44.79%,
+    rgba(243, 244, 245, 0.68) 60.42%,
+    #f3f4f5 79.17%,
+    #fff 100%
+  );
+
+  display: block;
+  background-image: url('../images/png/cup-left\ 1.png');
+  background-repeat: no-repeat;
+}
+
 .product-title {
   text-align: center;
   margin-bottom: 24px;
@@ -164,20 +186,27 @@
   margin-bottom: 90px;
 }
 
-.product-section {
-  background-color: var(--common-whitr);
-}
-
 .product-list {
+  /* display: flex;
+  gap: 30px; */
+
   display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
   gap: 30px;
+  padding: 0;
 }
 
 .product-item {
   width: 393px;
-  border: 1px solid #1b1b1d;
   border-radius: 24px;
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 60px) / 3);
+
   padding: 40px;
+  box-shadow: 0 30px 60px 0 rgba(163, 168, 178, 0.15);
+  background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .product-sub {
