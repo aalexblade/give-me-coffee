@@ -268,9 +268,34 @@
   width: 393px;
   border-radius: 24px;
   flex-basis: calc((100% - 60px) / 3);
-  padding: 40px;
+  padding: 30px;
   box-shadow: 0 20px 60px 0 rgba(163, 168, 178, 0.15);
   background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+
+  background: linear-gradient(
+    135deg,
+    #fff 0%,
+    #fff 0%,
+    rgba(243, 244, 245, 0.2) 11.74%,
+    #f3f4f5 27.92%,
+    rgba(243, 244, 245, 0) 44.79%,
+    rgba(243, 244, 245, 0.68) 60.42%,
+    #f3f4f5 79.17%,
+    #fff 100%
+  );
+
+  display: block;
+  background-image: url('../images/png/double-espresso.png');
+  background-repeat: no-repeat;
+  /* background-position: left top; */
+  background-position: 0 -200px;
+}
+
+.sell-selling {
+  font-size: 20px;
+  margin-top: 41px;
+  margin-bottom: 8px;
+  margin-left: 164px;
 }
 
 .sell-sub {
@@ -280,7 +305,14 @@
 }
 
 .sell-item > p {
-  margin-bottom: 40px;
+  /* margin-bottom: 8px; */
+}
+
+.sell-currency {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 21.68px;
+  color: var(--common-black);
 }
 
 .sell-btn {
