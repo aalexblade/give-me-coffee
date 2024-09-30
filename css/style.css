@@ -369,6 +369,10 @@
   margin-bottom: 40px;
 }
 
+.contact-social-wrap {
+  width: 413px;
+}
+
 .contact-sub {
   margin-bottom: 30px;
   margin-right: 62px;
@@ -417,10 +421,17 @@
 
 .contact-location-wrap {
   width: 558px;
-  height: 220px;
 }
 
-.input-email {
+.contact-location-text {
+  margin-bottom: 30px;
+}
+
+.contact-subscribe-wrap {
+  width: 413px;
+}
+
+.contact-input-email {
   width: 100%;
   max-width: 413px;
   border-radius: 65px;
@@ -432,12 +443,32 @@
   transition: 0.3s;
 }
 
-.input-email:focus {
+.contact-input-email:focus {
   border-color: var(--porcelain);
   outline: none;
   box-shadow: 0 0 10px rgba(143, 165, 174, 0.5);
 }
 
-.input-email:hover {
+/* .contact-input-email:hover {
   background-color: var(--porcelain);
+} */
+
+.contact-btn {
+  color: var(--common-whitr);
+  background-color: var(--common-black);
+
+  padding: 20px 40px;
+  border-radius: 63px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: var(--mid-gray);
+  color: var(--athens-gray);
 }
