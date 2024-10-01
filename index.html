@@ -65,8 +65,20 @@
                     coffee’s.</p>
 
                 <div class="hero-wrap">
-                    <button class="hero-btn" type="button">BUY COFFE</button>
+                    <button class="open-modal-btn hero-btn" type="button">BUY COFFE</button>
                     <a class="hero-link " href="">SHOP COFFEE</a>
+
+                    <!-- Кнопка для відкриття модального вікна -->
+                    <!-- <button class="open-modal-btn">Відкрити модальне вікно</button> -->
+
+                    <!-- Модальне вікно -->
+                    <div class="modal-overlay" id="modal-overlay">
+                        <div class="modal" id="modal">
+                            <span class="close-btn" id="close-btn">&times;</span>
+                            <h2>Модальне вікно</h2>
+                            <p>Це просте модальне вікно з текстом.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -255,6 +267,7 @@
     </footer>
 
 
+    <script src="./modal.js"></script>
 </body>
 
 </html>
