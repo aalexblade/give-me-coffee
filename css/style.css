@@ -387,18 +387,23 @@
   margin-bottom: 30px;
 }
 
-.contact-link::before {
-  /* display: contents; */
+.contact-link {
+  display: block;
   height: 60px;
   width: 60px;
   padding: 15px;
-  /* margin-right: 24px; */
+  margin-right: 24px;
   align-items: center;
   border-radius: 50%;
   background-color: var(--common-whitr);
   transition-duration: 250ms;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+}
+
+.svg {
+  display: block;
+  margin-right: 24px;
 }
 
 .contact-link-text {
@@ -485,6 +490,19 @@
 .contact-btn:focus {
   background-color: var(--mid-gray);
   color: var(--athens-gray);
+}
+
+/* footer */
+
+.footer-policy {
+  font-size: 22px;
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid rgba(27, 27, 29, 1);
 }
 
 /* --------------modal-------------------- */
