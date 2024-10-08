@@ -353,6 +353,24 @@
 
 /* contact */
 
+/* .contact-section {
+  background: linear-gradient(
+    135deg,
+    #fff 0%,
+    #fff 0%,
+    rgba(243, 244, 245, 0.2) 11.74%,
+    #f3f4f5 27.92%,
+    rgba(243, 244, 245, 0) 44.79%,
+    rgba(243, 244, 245, 0.68) 60.42%,
+    #f3f4f5 79.17%,
+    #fff 100%
+  );
+
+  display: block;
+  background-image: url('../images/png/cup-left 2.png');
+  background-repeat: no-repeat;
+} */
+
 .contact-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -383,12 +401,12 @@
   font-size: 30px;
   line-height: 44px;
   color: var(--mid-gray);
-
+  display: flex;
+  align-items: center;
   margin-bottom: 30px;
 }
 
-.contact-link {
-  display: block;
+.contact-link svg {
   height: 60px;
   width: 60px;
   padding: 15px;
@@ -401,16 +419,15 @@
   cursor: pointer;
 }
 
-.svg {
-  display: block;
-  margin-right: 24px;
+.contact-link svg:hover,
+.contact-link svg:focus {
+  background-color: var(--common-black);
 }
 
 .contact-link-text {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  /* text-decoration: underline; */
   text-transform: uppercase;
   color: var(--common-black);
 }
@@ -435,7 +452,7 @@
 
 .contact-social-item:hover,
 .contact-social-item:focus {
-  background-color: var(--mid-gray);
+  background-color: var(--common-black);
 }
 
 .contact-location-wrap {
@@ -502,7 +519,7 @@
   padding-top: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
-  border-top: 1px solid rgba(27, 27, 29, 1);
+  border-top: 1px solid rgba(27, 27, 29, 0.1);
 }
 
 /* --------------modal-------------------- */
