@@ -1,100 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Window Coffee</title>
+    <title>Box Model Example</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>Window Coffee</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Section -->
-    <main>
-        <!-- Home Section -->
-        <section id="home" class="section">
-            <div class="container">
-                <h2>Welcome to Window Coffee</h2>
-                <p>The perfect place for coffee lovers.</p>
-            </div>
-        </section>
-
-        <!-- Menu Section -->
-        <section id="menu" class="section">
-            <div class="container">
-                <h2>Our Menu</h2>
-                <div class="products">
-                    <div class="product-card">
-                        <h3>Cappuccino</h3>
-                        <p>Price: $3.50</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="product-card">
-                        <h3>Latte</h3>
-                        <p>Price: $4.00</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="product-card">
-                        <h3>Espresso</h3>
-                        <p>Price: $2.80</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>We serve freshly brewed coffee in the heart of the city.</p>
-            </div>
-        </section>
-
-        <!-- Contact Section with Google Map -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <p>Come visit us at our location.</p>
-                <div id="map"></div>
-
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1266.6063663819957!2d30.488313!3d50.5859992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d31737b3cb29%3A0x9b2fae5cf7d982a8!2sWindow%20coffee!5e0!3m2!1suk!2sua!4v1728580618954!5m2!1suk!2sua"
-                    width="1400" height="800" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>© 2024 Window Coffee. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-
+    <div class="box">
+        <h1>Заголовок</h1>
+        <p>Це текстовий блок, який змінює свої стилі залежно від ширини екрана.</p>
+        <button>Натисни мене</button>
+    </div>
 
 </body>
 
