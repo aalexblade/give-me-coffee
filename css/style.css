@@ -147,13 +147,38 @@
   cursor: pointer;
 }
 
-.hero-link {
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--common-black);
+  background-color: var(--common-whitr);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+
+  /* border: 1px solid var(--mid-gray); */
+}
+
+.hero-link-btn {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   cursor: pointer;
   text-transform: uppercase;
+
+  margin-right: 30px;
+  padding: 16px 40px;
+  border-radius: 126px;
   color: var(--common-black);
+  background-color: var(--athens-gray);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.hero-link-btn:hover,
+.hero-link-btn:focus {
+  color: var(--common-whitr);
+  background-color: var(--common-black);
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Our production */
