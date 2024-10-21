@@ -1,20 +1,77 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Window Coffee</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div class="box">
-        <h1>Заголовок</h1>
-        <p>Це текстовий блок, який змінює свої стилі залежно від ширини екрана.</p>
-        <button>Натисни мене</button>
-    </div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Window Coffee</h1>
+            <p>Your daily dose of coffee!</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </header>
 
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Window Coffee, where we serve fresh, handcrafted coffee through our window service. No
+                seating, just pure coffee bliss. Swing by for your daily cup of happiness!</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>Rich and bold espresso shot</p>
+                    <span>$2.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>Espresso with steamed milk</p>
+                    <span>$3.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and foam</p>
+                    <span>$3.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Americano</h3>
+                    <p>Espresso diluted with hot water</p>
+                    <span>$2.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Location: 123 Coffee Street, Brewtown</p>
+            <p>Phone: <span class="phone-icon">📞</span> +1 234 567 890</p>
+            <p>Email: info@windowcoffee.com</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Window Coffee | All Rights Reserved</p>
+        </div>
+    </footer>
 </body>
 
 </html>

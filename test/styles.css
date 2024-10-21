@@ -1,102 +1,215 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-image: url('https://yourimageurl.com/coffee-background.jpg');
+  background-size: cover;
+  background-position: center;
+
+  background-color: #fff;
+  color: #6d0e0e;
+  text-align: center;
+  padding: 120px 0;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+header .btn {
+  display: inline-block;
+  background-color: #6c4f3d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background 0.3s ease;
+}
+
+header .btn:hover {
+  background-color: #5a4231;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #6c4f3d;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Menu Section */
+.menu-section {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.menu-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #6c4f3d;
+  text-align: center;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-item h3 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: #6c4f3d;
+}
+
+.menu-item p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+.menu-item span {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #6c4f3d;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #6c4f3d;
+}
+
+.contact-section p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.phone-icon {
+  margin-right: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #6c4f3d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  header p {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 100px 0;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header p {
+    font-size: 1.3em;
+  }
+
+  .menu-item {
+    width: 200px;
+  }
+}
+
 @media (max-width: 480px) {
-  .box {
-    background-color: #fff;
-    padding: 20px;
+  header {
+    padding: 80px 0;
   }
 
-  .box h1 {
-    font-size: 18px;
+  header h1 {
+    font-size: 2em;
   }
 
-  .box p {
-    font-size: 14px;
+  header p {
+    font-size: 1.1em;
   }
 
-  .box button {
+  .menu-item {
+    width: 180px;
+    margin: 10px 0;
+  }
+
+  .container {
     width: 100%;
-    padding: 10px;
+    padding: 0 20px;
   }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .box {
-    background-color: tomato;
-    padding: 18px;
-  }
-
-  .box h1 {
-    font-size: 22px;
-  }
-
-  .box p {
-    font-size: 16px;
-  }
-
-  .box button {
-    width: 50%;
-    padding: 12px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .box {
-    background-color: blue;
-    padding: 16px;
-  }
-
-  .box h1 {
-    font-size: 26px;
-  }
-
-  .box p {
-    font-size: 18px;
-  }
-
-  .box button {
-    width: 40%;
-    padding: 14px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1025px) {
-  .box {
-    background-color: teal;
-    padding: 14px;
-  }
-
-  .box h1 {
-    font-size: 30px;
-  }
-
-  .box p {
-    font-size: 20px;
-  }
-
-  .box button {
-    width: 30%;
-    padding: 16px;
-    margin: 0 auto;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.box button {
-  cursor: pointer;
-  animation: fadeIn 1s; /* Додаємо анімацію появи */
-}
-
-.box button:hover,
-.box button:focus {
-  background-color: blue;
-  color: wheat;
 }
