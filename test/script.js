@@ -1,21 +1,24 @@
 // Google Map Initialization
-function initMap() {
-    const cafeLocation = { lat: 50.4501, lng: 30.5234 }; // Example coordinates (Kyiv, Ukraine)
-    const map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 14,
-        center: cafeLocation,
-    });
-    const marker = new google.maps.Marker({
-        position: cafeLocation,
-        map: map,
-    });
-}
+// Отримати елементи
+const modal = document.getElementById("modal");
+const openModalBtn = document.getElementById("openModal");
+const closeBtn = document.querySelector(".close");
 
-// Add to cart functionality (optional, extendable)
-document.querySelectorAll('.add-to-cart').forEach(button => {
-    button.addEventListener('click', () => {
-        alert('Item added to cart!');
-    });
+// Відкрити модальне вікно при кліці на кнопку
+openModalBtn.addEventListener("click", function () {
+    modal.style.display = "block";
+});
+
+// Закрити модальне вікно при кліці на "X"
+closeBtn.addEventListener("click", function () {
+    modal.style.display = "none";
+});
+
+// Закрити модальне вікно при кліці поза його межами
+window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
 });
 
 
