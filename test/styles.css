@@ -15,6 +15,30 @@ body {
   margin: 0 auto;
 }
 
+.color {
+  color: #eeefe9;
+  color: #eaeae2;
+  color: #eae9e4;
+  color: #e8e9e4;
+  color: #e8e9e3;
+
+  color: #4b382a; /* Темно-коричневий (для асоціації з кавою) —  */
+
+  color: #d2a679; /* Карамельний (теплий тон) —  */
+
+  color: #f5f5dc; /* Світло-кремовий (для фону) —  */
+
+  color: #a3b18a; /* Матовий зелений (натуральність, свіжа їжа) —  */
+
+  color: #c45c36; /* Теракотовий (для акцентів) —  */
+
+  color: #fff8e7; /* Молочний білий (чистота і простота) —  */
+
+  color: #333333; /* Темно-сірий (для тексту або фону) —  */
+
+  color: #c49b66; /* Золотистий (елементи розкоші) —  */
+}
+
 header {
   background: url('./img/tim-st-martin-IjnAc0vyqGs-unsplash.jpg') no-repeat
     center center/cover;
